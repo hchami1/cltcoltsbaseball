@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Card from "react-bootstrap/Card";
 import { CardColumns, Container, Row } from "react-bootstrap";
+import TextLine from "../components/TextLine";
 
 const StyledWrapper = styled.div`
   min-height: 65vh;
