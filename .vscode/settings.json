@@ -1,0 +1,8 @@
+{
+    "files.eol": "\n",
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+}
