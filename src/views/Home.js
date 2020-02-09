@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import styled from 'styled-components';
 import TextLine from "../components/TextLine";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const StyledWrapper = styled.div`
 min-height:65vh;
@@ -51,7 +52,8 @@ const Home = () => {
         </Row>
         <Row>
           <StyledButton>
-            <Button variant="secondary">Find Out More Here</Button>
+            <Button as={Link} to="/about" variant="secondary">
+              Find Out More Here</Button>
           </StyledButton>
         </Row>
       </Container>
