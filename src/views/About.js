@@ -25,12 +25,8 @@ const About = () => {
         <TextLine text={"About Us"}></TextLine>
         <Row>
           <p className="text">
-            Charlotte Colts Baseball is designed for those athletes who, in
-            addition to participating in regular Spring and Fall seasons, want
-            to experience extra baseball in more competitive tournament
-            environment. Our goal is to provide a local, cost-effective
-            alternative to travel or academy baseball.
-          </p>
+            Charlotte Colts Baseball is designed for those athletes who, in addition to participating in regular Spring and Fall seasons, want to experience extra baseball in more competitive tournament environment. Our goal is to provide a local, cost-effective alternative to travel or academy baseball.
+                </p>
         </Row>
         <Row>
           <CardDeck>
@@ -64,9 +60,38 @@ const About = () => {
             </Card>
           </CardDeck>
         </Row>
-        <HorizontalLine />
+        <TextLine text={"Time Commitment"} />
         <Row>
-          <h3>Time Commitment</h3>
+          <CardDeck>
+            <Card>
+              <Card.Body>
+                <Card.Title>Spring</Card.Title>
+                <Card.Text>
+                  In order to avoid conflicts with players regular season teams, Charlotte Colts teams will typically practice on Sunday afternoons. Tournament games will take place on select Saturdays and/or Sundays throughout the Spring.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>Fall</Card.Title>
+                <Card.Text>
+                  Program teams may practice more frequently than the Spring (possible weekday practices) based on player availability. Tournament games will take place on select Saturdays and/or Sundays during the Fall. Older age groups typically play one out-of-town tournament in the Fall. We understand that many kids play sports other than baseball in the Fall (and we encourage that!), and coaches will do their best to coordinate practices and games that meet the best needs of the team.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Body>
+                <Card.Title>Winter</Card.Title>
+                <Card.Text>Colts Baseball is committed to the long-term development of its players and believes that offseason training is important to fine tune basic skills and prepare teams to play early in the Spring season prior to players regular season commitments. Weekly indoor sessions (and outdoor when possible) will be held in [Dec/Jan/Feb], focusing on core fundamentals and conditioning in order to prepare players for the coming season.</Card.Text>
+              </Card.Body>
+            </Card>
+          </CardDeck>
+        </Row>
+        <TextLine text={"Expectations"} />
+        <Row>
+          <p className="text">
+            Each coaching staff will emphasize proper baseball development for each age group through planned practice sessions to ensure player and position development. We do not believe that youth baseball players should focus solely on one position. Players who possess the ability to play multiple positions stand the greatest chance of success in middle school and beyond. Coaches will focus on proper fundamentals and are encouraged to apply a fairness standard when allocating playing time for all participants. Fair playing time is not the same as equal playing time. There are no minimum play rules in the tournaments the Colts program [participates in]. Parents who believe that the most important parts of a youth baseball experience are equal playing time and equal opportunities to play a variety of positions should not consider Colts Baseball as an option for their child.
+              </p>
         </Row>
       </Container>
     </StyledWrapper>
