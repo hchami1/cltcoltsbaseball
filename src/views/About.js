@@ -12,10 +12,16 @@ const StyledWrapper = styled.div`
     font-family: "Open Sans Condensed", sans-serif;
     text-align: justify;
   }
-`;
-
-const HorizontalLine = styled.hr`
-  padding: 2em 0px;
+  .card-body{
+    color: #111441;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: justify;
+  }
+  .card-title{
+    color: #111441;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: justify;
+  }
 `;
 
 const About = () => {
@@ -92,6 +98,11 @@ const About = () => {
           <p className="text">
             Each coaching staff will emphasize proper baseball development for each age group through planned practice sessions to ensure player and position development. We do not believe that youth baseball players should focus solely on one position. Players who possess the ability to play multiple positions stand the greatest chance of success in middle school and beyond. Coaches will focus on proper fundamentals and are encouraged to apply a fairness standard when allocating playing time for all participants. Fair playing time is not the same as equal playing time. There are no minimum play rules in the tournaments the Colts program [participates in]. Parents who believe that the most important parts of a youth baseball experience are equal playing time and equal opportunities to play a variety of positions should not consider Colts Baseball as an option for their child.
               </p>
+        </Row>
+        <TextLine text={"Additional Teams"} />
+        <Row>
+          <p className="text">
+          As with most elite/travel opportunities, not all players will make a team. In some cases, more than one team per age group can be created. The creation of more than one team depends on four factors: Demand, Talent, Pitching and catching depth, and Availability of qualified coaches</p>
         </Row>
       </Container>
     </StyledWrapper>
