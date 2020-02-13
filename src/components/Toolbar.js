@@ -100,11 +100,6 @@ const Toolbar = () => {
             About
         </Nav.Link>
         </Nav.Item>
-        <Nav.Item className="mynav">
-          <Nav.Link className="mylink" as={NavLink} to="/contact">
-            Contact
-        </Nav.Link>
-        </Nav.Item>
       </Nav >
       <LogoWrapper>
         <div className="bar"></div>

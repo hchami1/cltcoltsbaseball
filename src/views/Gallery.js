@@ -1,23 +1,32 @@
 import React from "react";
 import styled from 'styled-components';
+import ImageGallery from 'react-image-gallery';
 
 const StyledWrapper = styled.div`
-min-height:65vh;
-padding-bottom: 1em;
-.text{
-  line-height: 2;
-  color: #111441;
-  font-family: 'Open Sans Condensed',sans-serif;
-  text-align: justify;
+.image-gallery-image{
+  width: 50%;
 }
 `;
+
+const images = [
+  {
+    original: 'https://picsum.photos/id/1018/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1018/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1015/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1015/250/150/',
+  },
+  {
+    original: 'https://picsum.photos/id/1019/1000/600/',
+    thumbnail: 'https://picsum.photos/id/1019/250/150/',
+  },
+];
 
 const Gallery = () => {
   return (
     <StyledWrapper>
-      <div>
-        <p> hi </p>
-      </div>
+      <ImageGallery showPlayButton={false} showFullscreenButton={false} items={images} />
     </StyledWrapper>
   );
 };

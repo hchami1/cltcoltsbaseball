@@ -11,15 +11,19 @@ padding: 1.1em 0px;
   color:whitesmoke;
   vertical-align: baseline;
   text-align: center;
-  .text{
+  .copyright{
     font-size:10px;
     color: whitesmoke;
     font-family: 'Open Sans Condensed',sans-serif;
     text-align: center;
     vertical-align: baseline;
   }
-  i{
-    color:white;
+  a,p{
+    color:whitesmoke;
+    font-size:12px;
+    font-family: 'Open Sans Condensed',sans-serif;
+    text-align: center;
+    vertical-align: baseline;
   }
 `;
 
@@ -27,7 +31,16 @@ const Footer = () => (
   <footer>
     <StyledWrapper>
       <Container>
-        <p className="text">© 2020 Copyright CltColtsBaseball.com The Home of the Charlotte Colts Baseball Team. All rights reserved.</p>
+        <Row>
+          <Col>
+            <p>Contact us via email at: <a href="mailto:admin@cltcoltsbaseball.com">admin@cltcoltsbaseball.com</a></p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <p className="copyright">Copyright © 2020 CltColtsBaseball.com The Home of Charlotte Colts Baseball. All rights reserved.</p>
+          </Col>
+        </Row>
       </Container>
     </StyledWrapper>
   </footer>

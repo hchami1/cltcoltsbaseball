@@ -6,12 +6,12 @@ import Home from './views/Home';
 import Teams from './views/Teams';
 import Gallery from './views/Gallery';
 import About from './views/About';
-import Contact from './views/Contact';
 import history from "./utils/history";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Toolbar from './components/Toolbar';
 import Footer from './components/Footer';
+import 'react-image-gallery/styles/css/image-gallery.css';
 
 
 function App() {
@@ -25,7 +25,6 @@ function App() {
             <Route path="/teams" exact component={Teams} />
             <Route path="/gallery" exact component={Gallery} />
             <Route path="/about" exact component={About} />
-            <Route path="/contact" exact component={Contact} />
           </Switch>
         </Container>
         <Footer />

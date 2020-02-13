@@ -22,6 +22,10 @@ const StyledButton = styled.div`
   width:100%;
   text-align:center;
   padding: 1.5em 0px;
+  .btn{
+    background-color:lightgray;
+    border-color:lightgray;
+  }
 `;
 
 const Home = () => {
