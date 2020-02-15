@@ -23,8 +23,8 @@ const StyledButton = styled.div`
   text-align:center;
   padding: 1.5em 0px;
   .btn{
-    background-color:lightgray;
-    border-color:lightgray;
+    background-color:gray;
+    border-color:gray;
   }
 `;
 
